@@ -1,0 +1,65 @@
+
+<html>
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+        <h1><strong>In the below code i could't cover all the attribut and elements of Forms.so plesase wisite the <a href="https://www.w3schools.com/html/html_form_elements.asp">w3 school Forms </a> </strong>
+        <hr>
+        </h1>
+        <h1>Enter you detail so our team can Contact you .</h1>
+        <form action="mailto:vishalsharma2212003@gmail.com"  target="post" enctype="text/plain " >
+            <label for="name">Enter your name.</label><br>
+            <input type="text" name="name"><br><br>
+            <label for="last name ">Enter your last Name.</label><br>
+            <input type="text" name="last name"><br><br>
+            <label for="phone number">Enter your phone number. </label><br>
+            <input type="number" name="phone number "><br><br>
+            <label for="email">Enter you email id. </label><br>
+            <input type="email" name="email" ><br><br>
+            <label for="birth date ">Enter yppur date of bairth.</label><br>
+            <input type="date" name="birth date "><br><br> 
+            <input type="submit">
+            <fieldset >  
+                <legend><strong>How is it :</strong></legend>
+            <h1>Radio button </h1>
+            <fieldset>
+                <legend><strong>Didi you like it :</strong></legend>
+            <p><em>Selct the one of hte programing language you know.</em> </p><br>
+            <input type="radio" name="for language">
+            <!-- here the name attribute plays an important role if we remove the name element the user can select  give given choice and
+            when he select the other choise it will be not removed . -->
+            <label for="lnaguage">html</label><br>
+            <input type="radio" name="for language">
+            <label for="lnaguage">css</label><br>
+            <input type="radio" name="for language">
+            <label for="lnaguage">java</label><br>
+            <input type="radio" name="for language">
+            <label for="lnaguage">react.js</label><br><br>
+            <input type="checkbox">
+            <label for="terams"><em>the document governing the contractual relationship between the provider of a service and its user</em></label><br>
+            <input type="checkbox">
+            <label for="terams"><em>your data will be in our server and we can use it to provide you better exprience</em></label>
+            <br><br>
+            <input type="submit">
+             </fieldset> 
+        <fieldset>
+            <legend><strong>Didi you like it :</strong></legend>
+            <h2>select element. </h2>
+            <p><em>select the car which you want for coming in office.</em></p>
+            <select name="car1" id="cars">
+                <option value="velo">velo</option>
+                <option value="audi">audi</option>
+                <option value="range rover" selected>range rover </option>
+                <option value="tata">Tata</option>
+        </fieldset>
+            </select>
+            <input type="submit"><br><br><br>
+            <textarea name="complete the lines" id="complete" cols="30" rows="10">sing for me sing for the </textarea>
+            <br><br>
+            <input type="submit"><br><br>
+            <button type="button" onclick="alert('hellow')" >click me plzzz</button>
+        </form>
+    </body>
+    </html>
